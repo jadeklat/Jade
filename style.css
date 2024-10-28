@@ -1,45 +1,42 @@
-/* Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
+    background-color: #f4f7fa;
     color: #333;
 }
 
-/* Header Styling */
+/* Header */
 header {
     background-color: #1f3b73;
     color: #fff;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-.intro p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-}
-
-.links a {
+.contact-links a {
     color: #fff;
     font-weight: bold;
-    margin: 0 0.5rem;
     text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
     border: 2px solid #fff;
-    padding: 0.3rem 1rem;
     border-radius: 5px;
+    transition: background 0.3s;
 }
 
-.links a:hover {
-    background-color: #f0f4f8;
+.contact-links a:hover {
+    background-color: #fff;
     color: #1f3b73;
 }
 
@@ -48,19 +45,19 @@ section {
     padding: 2rem;
     max-width: 800px;
     margin: 2rem auto;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
+    font-size: 2rem;
     color: #1f3b73;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
 }
 
-/* Skills Section */
-.skills-grid {
+/* Skills Styling */
+.skills-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -68,24 +65,43 @@ h2 {
 }
 
 .skill-card {
-    background-color: #dbe2f1;
     padding: 1rem;
-    text-align: center;
     border-radius: 5px;
+    background-color: #d0e1ff;
     font-weight: bold;
-    width: 100px;
+    text-align: center;
+    width: 120px;
+    transition: transform 0.3s;
 }
 
-/* Experience Section */
-.experience-item, .project-item {
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+/* Experience and Project Cards */
+.experience-item, .project-item, .education-item {
     margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #edf2f7;
+    border-left: 5px solid #1f3b73;
+    transition: background 0.3s;
+}
+
+.experience-item:hover, .project-item:hover, .education-item:hover {
+    background: #e2e8f0;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #1f3b73;
+    background: #1f3b73;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
