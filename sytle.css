@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: #4a90e2;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background: #fff;
+    color: #4a90e2;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 1rem;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-card {
+    flex: 1 1 30%;
+    background: #e2e8f0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.experience-item, .project-item {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4a90e2;
+    color: #fff;
+    margin-top: 2rem;
+}
