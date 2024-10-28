@@ -88,9 +88,6 @@ A web app designed to **track attendance** and **boost class participation** by 
 - **Chess**: Won the 2013 Chess Championship for Girls in Lebanon
 - **Adventure**: Certified PADI diver, traveled to 25 countries
 
-  ## 🌐 Profile Views
-![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=blueviolet&style=flat)
-
 
 
 
