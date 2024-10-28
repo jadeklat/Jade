@@ -7,18 +7,18 @@
 <details>
 <summary>👨‍💻 About Me</summary>
   
-- **Double Degree**: Business Administration & International Relations at IE University
-- **Experience**: Trade intern at CMA CGM, startup intern at Naboo
-- **Languages**: Fluent in French, English, Arabic, and Spanish
+- **Double Degree** : Business Administration & International Relations at IE University
+- **Experience** : Trade intern at CMA CGM, startup intern at Naboo
+- **Languages** : Fluent in French, English, Arabic, and Spanish
 
 </details>
 
 <details>
 <summary>📈 Key Skills</summary>
   
-- **Programming**: JavaScript, SQL, MongoDB, Excel
-- **Tools**: Canva, iMovie, Heroku, Flask
-- **Certifications**: Software Engineering (IBM, Coursera)
+- **Programming** : JavaScript, SQL, MongoDB, Excel
+- **Tools** : Canva, iMovie, Heroku, Flask
+- **Certifications** : Software Engineering (IBM, Coursera)
 
 </details>
 
